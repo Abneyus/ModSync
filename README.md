@@ -5,6 +5,8 @@ Because of the now defunct Tamriel Online, I got the idea in my head to create a
 
 ## To Use
 
+Requires pymongo
+
 Running the program once creates a 'config.ini' file. In there you can set a bunch of settings. It should all be straightforward.
 
 To update the server with your current configuration, run with the -update command.
@@ -23,4 +25,4 @@ Sort've. Now that I think about it it probably doesn't work if you don't supply 
 Yes.
 
 ## Why are you including some strange FTP library?
-Because there is a bug in the python provided FTP library where it wont work with microsoft FTP servers with SSL. See[http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix], I basically just implemented that guy's fix.
+Because there is a bug in the python provided FTP library where it wont work with Microsoft FTP servers with SSL. [See](http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix), I basically just implemented that guy's fix.

@@ -5,8 +5,7 @@ from shutil import copyfile
 from os import makedirs
 from urllib.request import urlretrieve
 from urllib.parse import quote
-#Need this because of http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix
-from myftplib import FTP, FTP_TLS
+#FTP Issues re: http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix
 from pathlib import Path
 import hashlib, sys, os, configparser
 

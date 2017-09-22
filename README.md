@@ -24,5 +24,7 @@ Sort've. Now that I think about it it probably doesn't work if you don't supply 
 ## Isn't this basically Dropbox/Google Drive/ownCloud, but worse?
 Yes.
 
-## Why are you including some strange FTP library?
-Because there is a bug in the python provided FTP library where it wont work with Microsoft FTP servers with SSL. [See](http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix), I basically just implemented that guy's fix.
+## Deprecated
+
+~~Why are you including some strange FTP library?
+Because there is a bug in the python provided FTP library where it wont work with Microsoft FTP servers with SSL. [See](http://www.sami-lehtinen.net/blog/python-32-ms-ftps-ssl-tls-lockup-fix), I basically just implemented that guy's fix.~~
